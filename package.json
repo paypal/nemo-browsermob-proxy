@@ -1,0 +1,41 @@
+{
+  "name": "nemo-browsermob-proxy",
+  "version": "0.1.2",
+  "description": "BrowserMob Proxy plugin for for Nemo automation framework",
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "selenium-webdriver": "~2.42.0",
+    "browsermob-proxy": "1.0.8"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "chai": "~1.6.0",
+    "grunt": "~0.4.1",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-contrib-jshint": "~0.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paypal/nemo-browsermob-proxy.git"
+  },
+  "keywords": [
+    "nemo,browsermob,proxy,plugin"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "author": "Nilesh Kulkarni <nikulkarni@paypal.com>",
+  "bugs": {
+    "url": "https://github.com/paypal/nemo-browsermob-proxy/issues"
+  },
+  "homepage": "https://github.com/paypal/nemo-browsermob-proxy",
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ]
+}
